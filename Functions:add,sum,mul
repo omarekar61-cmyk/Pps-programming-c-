@@ -1,0 +1,18 @@
+//Name: om mukesh arekar
+//PRN: 2503033111378UD027
+#include <stdio.h>
+
+int add(int a, int b) { return a + b; }
+int sub(int a, int b) { return a - b; }
+int mul(int a, int b) { return a * b; }
+
+int main()
+{
+    int x, y;
+    printf("Enter two numbers: ");
+    scanf("%d %d", &x, &y);
+    printf("Addition = %d\n", add(x, y));
+    printf("Subtraction = %d\n", sub(x, y));
+    printf("Multiplication = %d\n", mul(x, y));
+    return 0;
+}
