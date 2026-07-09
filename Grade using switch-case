@@ -1,0 +1,19 @@
+//Name: om mueksh arekar
+//PRN: 2503033111378UD027
+#include <stdio.h>
+
+int main()
+{
+    int grade;
+    printf("Enter grade number (1-4): ");
+    scanf("%d", &grade);
+    switch(grade)
+    {
+        case 1: printf("Grade A"); break;
+        case 2: printf("Grade B"); break;
+        case 3: printf("Grade C"); break;
+        case 4: printf("Fail"); break;
+        default: printf("Invalid Choice");
+    }
+    return 0;
+}
