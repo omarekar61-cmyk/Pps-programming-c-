@@ -1,0 +1,15 @@
+//Name: om mukesh arekar
+//PRN: 2503033111378UD027
+#include <stdio.h>
+
+int main()
+{
+    int pin;
+    printf("Enter ATM PIN: ");
+    scanf("%d", &pin);
+    if(pin == 1234)
+        printf("Correct PIN");
+    else
+        printf("Wrong PIN");
+    return 0;
+}
