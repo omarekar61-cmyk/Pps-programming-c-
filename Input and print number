@@ -1,0 +1,12 @@
+//Name: om mukesh arekr
+//PRN: 2503033111378UD027
+#include <stdio.h>
+
+int main()
+{
+    int num;
+    printf("Enter a number: ");
+    scanf("%d", &num);
+    printf("You entered: %d", num);
+    return 0;
+}
